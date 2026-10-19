@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/nancy-hero.svg" alt="Nancy Voice Assistant animated banner" width="100%">
+
 # Nancy Voice Assistant v2.5
 ### Full Code Working Data
 
@@ -20,6 +22,16 @@ Get the full Nancy Voice Assistant v2.5 project from Google Drive:
 **[Download the project from Google Drive](https://drive.google.com/drive/folders/1VcLEkdEENb1ieLipG6LMYzM3xbAc0ATD?usp=sharing)**
 
 After downloading, extract the folder, then follow the [Quick Start](#1-project-overview) to install dependencies and run it.
+
+---
+
+## See It in Action
+
+<div align="center">
+
+<img src="assets/nancy-demo.svg" alt="Animated terminal demo of Nancy handling voice commands" width="100%">
+
+</div>
 
 ---
 
@@ -89,6 +101,12 @@ It focuses on source code and runtime files. Generated files such as `build/`, `
 ## 2. High-Level Architecture
 
 Every command, whether spoken or typed, flows through four layers and ends in logs and memory.
+
+<div align="center">
+
+<img src="assets/nancy-pipeline.svg" alt="Animated command pipeline" width="100%">
+
+</div>
 
 ```mermaid
 flowchart TD
